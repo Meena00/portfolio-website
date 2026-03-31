@@ -2,7 +2,7 @@
 
 This repository contains the source code for my personal portfolio website.
 
-The site presents my background, projects, and experience as a Computational & Data Science student focused on data analytics, machine learning, and research.
+The site presents my background, projects, and experience as a Computational & Data Science student focused on data analytics, data validation, and applied machine learning.
 
 **Live Site:**  
 https://meena00-portfolio.netlify.app
@@ -11,74 +11,58 @@ https://meena00-portfolio.netlify.app
 
 ## Overview
 
-This portfolio highlights my work in data analysis and machine learning, including a fraud detection project using large-scale financial transaction datasets.
+This portfolio highlights my experience in data analysis, including a fraud detection project using large-scale financial transaction data.
 
-The site was designed to present projects clearly for recruiters and hiring managers and to provide easy access to my GitHub repositories and professional background.
+The site is designed to present projects clearly for recruiters and hiring managers, with direct access to GitHub repositories and a structured overview of my technical skills and experience.
 
 ---
 
 ## Featured Projects
 
-### Credit Card Fraud Detection & Fairness Analysis
+### Credit Card Fraud Detection & Cost Optimization
 
-Machine learning and data analytics project analyzing fraud detection systems using financial transaction datasets.
+Data analysis project focused on identifying fraud patterns and optimizing decision-making in financial systems.
 
 Key elements of the analysis include:
 
-- Fraud pattern analysis
-- Handling class imbalance in fraud detection datasets
-- Random Forest classification models
-- K-Means clustering for behavioral transaction grouping
-- Evaluation of fairness and bias in fraud detection systems
+- Behavioral segmentation of transactions using K-Means clustering  
+- Dimensionality reduction with PCA for pattern visualization  
+- Fraud concentration analysis across transaction segments  
+- Random Forest modeling for fraud prediction  
+- Cost-sensitive threshold optimization to reduce financial loss  
+
+This project demonstrates how threshold tuning can balance fraud detection accuracy with user impact in real-world systems.
 
 GitHub Repository:  
-https://github.com/Meena00/credit-card-fraud-detection
+https://github.com/Meena00/Credit-Card-Fraud-Detection
 
 ---
 
-### Personal Portfolio Website
+### Portfolio Website
 
 A responsive portfolio website built to showcase projects and professional experience.
 
 Features include:
 
-- Project showcase for data analytics work
-- Responsive design
-- GitHub and LinkedIn integration
-- Netlify deployment with automatic builds
+- Project-focused layout for data analytics work  
+- Clean and responsive design  
+- Integration with GitHub and LinkedIn  
+- Netlify deployment with automatic updates  
 
 Technologies used:
 
-- HTML
-- CSS
-- JavaScript
-- Netlify
+- HTML  
+- CSS  
+- JavaScript  
+- Netlify  
+
+GitHub Repository:  
+https://github.com/Meena00/portfolio-website
 
 ---
-
-## Repository Structure
-
-portfolio-website
-│
-├── index.html
-├── assets
-│ ├── css
-│ │ style.css
-│ │
-│ ├── js
-│ │ script.js
-│ │
-│ ├── images
-│ │ meena-pic.png
-│ │
-│ └── resume
-│ Meena-Resume.pdf
-
----
-
 ## Deployment
 
-The website is deployed using Netlify with automatic deployments from GitHub.
+The website is deployed using Netlify with automatic builds connected to GitHub.
 
 Each push to the main branch triggers a new deployment.
 
@@ -88,10 +72,10 @@ Each push to the main branch triggers a new deployment.
 
 **Meena Anwar**  
 BS Computational & Data Science  
-George Mason University
+George Mason University  
 
-LinkedIn  
-https://www.linkedin.com/in/meena00
+LinkedIn:  
+https://www.linkedin.com/in/meena00  
 
-GitHub  
+GitHub:  
 https://github.com/Meena00
