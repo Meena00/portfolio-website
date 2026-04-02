@@ -152,15 +152,21 @@ html::-webkit-scrollbar-thumb {
 
 .home-img img {
   position: relative;
-  border-radius: 50%;
   top: 3rem;
-  width: 18vw;
-  max-width: 240px;
-  min-width: 165px;
+
+  width: 200px;
+  height: 200px;
+
+  object-fit: cover;
+  border-radius: 50%;
+
+  border: 3px solid #a855f7;
+
   box-shadow:
-    0 0 2px rgba(59, 130, 246, 0.25),
-    0 0 10px rgba(59, 130, 246, 0.18),
-    0 0 25px rgba(59, 130, 246, 0.12);
+    0 0 2px rgba(168, 85, 247, 0.25),
+    0 0 10px rgba(168, 85, 247, 0.18),
+    0 0 25px rgba(168, 85, 247, 0.12);
+
   cursor: pointer;
   transition: 0.3s ease;
 }
